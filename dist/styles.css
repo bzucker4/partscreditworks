@@ -784,6 +784,35 @@ h3 {
   font-size: 13px;
 }
 
+.sample-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  padding: 24px 30px 28px;
+  background: var(--white);
+}
+
+.sample-actions strong,
+.sample-actions span {
+  display: block;
+}
+
+.sample-actions strong {
+  color: var(--ink);
+  font-size: 17px;
+}
+
+.sample-actions span {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.sample-actions .button {
+  flex-shrink: 0;
+}
+
 .step-number {
   position: absolute;
   top: 25px;
@@ -1720,6 +1749,16 @@ h3 {
 
   .sample-disclaimer {
     padding: 16px 20px;
+  }
+
+  .sample-actions {
+    align-items: stretch;
+    flex-direction: column;
+    padding: 22px 20px 25px;
+  }
+
+  .sample-actions .button {
+    width: 100%;
   }
 
   .privacy-main {
