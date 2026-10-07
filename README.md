@@ -1,4 +1,4 @@
-# Parts Credit Works
+# PartsCreditWorks
 
 Conversion-focused landing page for a fixed-price parts and core credit recovery audit serving independent auto repair shops.
 
