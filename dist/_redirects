@@ -1,11 +1,4 @@
-[build]
-  publish = "dist"
-
 # Send the default Netlify subdomain to the custom domain so search engines
 # only index one copy. Matches only the production netlify.app host, so
 # deploy previews and branch deploys are unaffected.
-[[redirects]]
-  from = "https://partscreditworks.netlify.app/*"
-  to = "https://partscreditworks.com/:splat"
-  status = 301
-  force = true
+https://partscreditworks.netlify.app/*  https://partscreditworks.com/:splat  301!
